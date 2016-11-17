@@ -1,0 +1,28 @@
+<!--<div class="row home">
+  <div class="col-xs-12">
+      <img [src]="src" [hidden]="!src"><br>
+      <input type="file" image-upload
+        (imageSelected)="selected($event)"
+        [resizeOptions]="resizeOptions"
+        [allowedExtensions]="allowedExt">
+        <h1>{{error}}</h1>
+  </div>
+  </div>-->
+
+
+<div class="card home ">
+    <a class="bs btn-floating btn-large waves-effect waves-light red" [routerLink] ="['']"><i class="material-icons"><</i></a>
+    <div class="img-box"><br>
+      <img class="card-img-top" [src]="src" [hidden]="!src" alt="image preview">
+      <h4 class="ipreview" *ngIf="!src">Image Preview</h4>
+    </div>
+    <div class="card-block">
+      <p class="card-text files">
+        <input type="file" image-upload
+          (imageSelected)="selected($event)"
+          [resizeOptions]="resizeOptions"
+          [allowedExtensions]="allowedExt">
+      </p>
+      <p class="card-text"><small class="text-muted">{{error}}</small></p>
+    </div><br><br>
+</div>

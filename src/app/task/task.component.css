@@ -1,0 +1,25 @@
+.home{
+position: relative;
+    text-align: center;
+    margin: 20%;    
+}
+
+.img-box{
+    height:200px;
+}
+
+.ipreview{
+        padding: 29px;
+    color: orange;
+    text-transform: none;
+}
+
+.files{
+    margin-left:35%;
+}
+
+.bs{
+    position: absolute;
+    right: -26px;
+    top: 15px;
+}
