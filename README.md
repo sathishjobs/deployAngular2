@@ -1,4 +1,12 @@
-# Task
+# Angular 2 Task
+
+# Thank you for gave this chance
+
+## Before Clone you need to install Following tools
+  [Nodejs](https://nodejs.org/en/) and 
+  angularcli [npm install -g angular-cli]
+
+  
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
 
